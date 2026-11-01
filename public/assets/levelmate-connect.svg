@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Conceptual LevelMatePRO phone connection</title><desc id="desc">An illustrative phone and mounted RV sensor connected by a Bluetooth signal. Not an actual app screenshot.</desc>
+  <rect width="800" height="450" rx="28" fill="#e6f1ea"/>
+  <circle cx="400" cy="218" r="120" fill="#d4e7dc"/>
+  <rect x="102" y="62" width="212" height="325" rx="34" fill="#193c36"/>
+  <rect x="114" y="75" width="188" height="299" rx="24" fill="#fbfdfb"/>
+  <rect x="171" y="84" width="76" height="10" rx="5" fill="#b3cfc0"/>
+  <rect x="145" y="117" width="126" height="37" rx="11" fill="#e8f2ec"/>
+  <text x="208" y="141" text-anchor="middle" font-size="17" font-weight="700" font-family="Arial,sans-serif" fill="#265743">PHONE APP</text>
+  <circle cx="208" cy="231" r="58" fill="#e7f4ec" stroke="#69a88a" stroke-width="4"/>
+  <path d="M199 189v85l40-34-31-27 31-24-40-34" fill="none" stroke="#2b7259" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="208" cy="333" r="9" fill="#8daea0"/>
+  <path d="M342 226h105" stroke="#378b68" stroke-width="8" stroke-dasharray="12 12" stroke-linecap="round"/>
+  <circle cx="392" cy="226" r="19" fill="#378b68"/>
+  <path d="M384 226h16m-8-8v16" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <rect x="484" y="102" width="220" height="258" rx="19" fill="#d2bca2"/>
+  <path d="M510 102v258m168-258v258" stroke="#b39a7f" stroke-width="4" opacity=".45"/>
+  <rect x="540" y="165" width="109" height="121" rx="16" fill="#253c39" stroke="#59746b" stroke-width="5"/>
+  <path d="M594 190v-17m0 0-10 10m10-10 10 10" stroke="#b9dcca" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="594" cy="255" r="6" fill="#73c297"/>
+  <text x="594" y="320" text-anchor="middle" font-size="18" font-weight="700" font-family="Arial,sans-serif" fill="#345a4e">RV MODULE</text>
+  <text x="400" y="421" text-anchor="middle" font-size="19" font-family="Arial,sans-serif" fill="#507768">Concept only · pair in the manufacturer app</text>
+</svg>

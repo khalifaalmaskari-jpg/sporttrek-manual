@@ -79,3 +79,41 @@ button,input,textarea,select{font-family:inherit!important}
 @media(max-width:360px){.hero-meta span{font-size:8px}.quick-card{padding:14px}.quick-card strong{font-size:13px}.bottom-nav button{font-size:9px}.workbook-tabs button{font-size:11px;padding:10px 12px}.visual-grid strong{font-size:11px}}
 :root[data-theme=dark] .visual-grid button,:root[data-theme=dark] .guide-visual{background:#284136;border-color:#456050;color:#e1ebe4}
 :root[data-theme=dark] .visual-grid small,:root[data-theme=dark] .guide-visual figcaption{color:#b7d1bf}
+
+/* LevelMatePRO image-led guide: wide touch targets and readable iPhone typography. */
+.levelmate-page{max-width:860px;margin:0 auto;padding-bottom:110px}
+.levelmate-page .page-head p{max-width:650px}
+.levelmate-page .workbook-notice{display:flex;align-items:flex-start;gap:12px;border-radius:14px;padding:15px;margin:16px 0 22px;background:#fff6e9;border:1px solid #e9d3a9;color:#664d2f}
+.levelmate-page .workbook-notice svg{flex:none;margin-top:3px}
+.levelmate-page .workbook-notice p{margin:0;font-size:13px;line-height:1.6}
+.levelmate-progress{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:16px;color:#507365;font-size:12px;font-weight:700}
+.levelmate-progress span:first-child{display:flex;align-items:center;gap:8px}
+.levelmate-step{border:1px solid #dce6de;background:white;border-radius:17px;overflow:hidden;margin-bottom:15px;box-shadow:0 3px 14px #163a2610}
+.levelmate-step-header{display:flex;width:100%;align-items:center;justify-content:space-between;gap:14px;min-height:72px;padding:16px 19px;text-align:left;background:transparent;color:#204d3b;border:0;cursor:pointer}
+.levelmate-step-header>span{display:grid;gap:5px}
+.levelmate-step-header small{font-size:10px;letter-spacing:1.15px;font-weight:800;color:#8a987e}
+.levelmate-step-header strong{font-size:18px;line-height:1.25}
+.levelmate-step-header svg{transition:transform .2s;flex:none}
+.levelmate-step-header svg.turned{transform:rotate(90deg)}
+.levelmate-step-content{padding:0 19px 20px}
+.levelmate-step-content figure{margin:0;background:#edf3ee;border-radius:12px;overflow:hidden}
+.levelmate-step-content img{width:100%;display:block;max-height:370px;object-fit:contain}
+.levelmate-step-content figcaption{font-size:11px;color:#657b70;line-height:1.5;padding:10px 13px}
+.levelmate-step-content ol{counter-reset:step;list-style:none;margin:17px 0 0;padding:0;display:grid;gap:14px}
+.levelmate-step-content li{display:flex;align-items:flex-start;gap:12px;font-size:14px;line-height:1.65;color:#344d42}
+.levelmate-step-content li:before{counter-increment:step;content:counter(step);flex:none;display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:#e0eee4;color:#245c44;font-weight:800;font-size:12px}
+.levelmate-trouble{margin:26px 0;background:#ecf3ed;border-radius:17px;padding:20px}
+.levelmate-trouble h2{font-size:20px;display:flex;gap:10px;align-items:center;margin:0 0 12px;color:#204d3b}
+.levelmate-trouble details{border-top:1px solid #cfded2;padding:13px 0}
+.levelmate-trouble summary{font-size:14px;font-weight:750;cursor:pointer;color:#284d3d}
+.levelmate-trouble p{font-size:13px;line-height:1.65;margin:9px 0 0;color:#466455}
+.levelmate-actions{display:flex;gap:10px;flex-wrap:wrap}
+.levelmate-actions button,.levelmate-actions a{display:flex;justify-content:center;align-items:center;gap:8px;min-height:48px;padding:11px 17px;border-radius:12px;border:1px solid #345f4e;font-size:13px;font-weight:800;text-decoration:none;background:#245944;color:white;cursor:pointer}
+.levelmate-actions a{background:white;color:#245944}
+.levelmate-page .small-meta{font-size:11px;color:#718378;line-height:1.6;margin-top:18px}
+@media(max-width:700px){.levelmate-page{padding-top:18px}.levelmate-step-header{padding:15px}.levelmate-step-content{padding:0 14px 17px}.levelmate-step-content img{max-height:280px}.levelmate-actions>*{flex:1 1 100%}.levelmate-trouble{padding:17px}}
+:root[data-theme=dark] .levelmate-step,:root[data-theme=dark] .levelmate-actions a{background:#243b2e;color:#e4eee8;border-color:#496853}
+:root[data-theme=dark] .levelmate-step-header,:root[data-theme=dark] .levelmate-trouble h2,:root[data-theme=dark] .levelmate-trouble summary,:root[data-theme=dark] .levelmate-actions a{color:#cce8d6}
+:root[data-theme=dark] .levelmate-step-content li,:root[data-theme=dark] .levelmate-trouble p{color:#d1e4d7}
+:root[data-theme=dark] .levelmate-trouble{background:#294537}
+:root[data-theme=dark] .levelmate-page .workbook-notice{background:#473b26;border-color:#8f7448;color:#f3dfbc}
