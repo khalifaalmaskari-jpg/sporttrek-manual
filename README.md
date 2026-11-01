@@ -52,4 +52,8 @@ For 120 V electrical, LP gas, brake, chassis, and structural repairs, use qualif
 
 The equipment worksheet deliberately starts **unverified**. Never mark a circuit verified based only on an online or conceptual diagram. Private notes and serial numbers entered on the iPhone must be exported by the owner; they are not synced between devices.
 
+## Visual guides and mobile display
+
+The app uses the native iPhone/system sans-serif font consistently, supports narrow phone layouts and safe-area navigation, and shows two optimized educational illustrations (`guide-hitch-check.webp` and `guide-campsite-level.webp`) alongside the original reference drawing gallery. These newly generated pictures are **illustrative only**, not photographs or schematics of the owner's actual trailer. Compare any depicted hardware with the physical trailer and its manufacturer's instructions before operating or repairing it.
+
 This repository intentionally excludes `node_modules/`, generated `dist/`, and private hosting configuration.
