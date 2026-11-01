@@ -1,0 +1,10 @@
+{
+  "name":"SportTrek STT343VBH Field Guide",
+  "short_name":"SportTrek",
+  "description":"Owner, troubleshooting and technical companion for the 2019 STT343VBH",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f6f7f4",
+  "theme_color":"#183331",
+  "icons":[{"src":"./app-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
